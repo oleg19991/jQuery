@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    font-family: 'Press Start 2P' , cursive;
+}
+h1{
+    color: yellow;
+}
+h2{
+    margin-top: 10px;
+    color: yellowgreen;
+}
+header{
+    text-align: center;
+    margin-top: 10px;
+}
+main{
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start{
+    text-decoration: none; color: rgb(255, 115, 0);
+    font-size: 70px;
+    animation: rainbow 4s infinite ease-in-out;
+}
+#start:hover{
+    font-size: 75px;
+    text-shadow: 2px 2px 10px white;
+    transition: 1s;
+}
+@keyframes rainbow{
+    100%, 0%{
+        color: rgb(255, 0, 0);
+    } 
+    15%{
+        color: orange;
+    }
+    30%{
+        color: yellow;
+    }
+    42%{
+        color: green;
+    }
+    55%{
+        color: blue;
+    }
+    75%{
+        color: aqua;
+    }
+    90%{
+        color: purple;
+    }
+}
